@@ -3,12 +3,9 @@
   "version": "1.0.0",
   "description": "IPC for Electron",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AragonOne/intertron.git"
+    "url": "git+https://github.com/AragonOne/intertron-client.git"
   },
   "keywords": [
     "electron",
@@ -18,7 +15,7 @@
   "author": "Luis Cuende <me@luisivan.net>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/AragonOne/intertron/issues"
+    "url": "https://github.com/AragonOne/intertron-client/issues"
   },
-  "homepage": "https://github.com/AragonOne/intertron#readme"
+  "homepage": "https://github.com/AragonOne/intertron-client#readme"
 }
