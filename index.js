@@ -1,4 +1,4 @@
-export default class Intertron {
+class Intertron {
   async call(method, ...args) {
     const repId = ipcRenderer.sendSync(method, ...args)
     return new Promise((resolve, reject) => {
@@ -8,3 +8,5 @@ export default class Intertron {
     })
   }
 }
+
+module.exports = Intertron
