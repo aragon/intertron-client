@@ -8,6 +8,6 @@ A client with no dependencies at all to be used with [Intertron](https://github.
 import IntertronClient from 'intertron-client'
 
 const client = new Intertron()
-const something = await client.call('Namespace.whateverMethod')
+const something = await client.call('Namespace.whateverMethod', 'arg1', 'arg2')
 console.log(`This ${something} comes from Electron main process`)
 ```
